@@ -44,6 +44,7 @@ const errorHandler = (err, req, res, next) => {
 
     default:
       console.log("No Error, All good !");
+      // console.log(statusCode);
       break;
   }
 };
